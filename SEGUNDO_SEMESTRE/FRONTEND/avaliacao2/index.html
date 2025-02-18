@@ -1,0 +1,235 @@
+<!-- ISADORA CARVALHO E KEVIN CARRIE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Royal Caribbean</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <main>
+        <header>
+            <div id="banner">BRASIL 0800-8913998</div>
+            <nav class="topnav" id="myTopnav">
+                <a href="#" class="active"><img src="images/h1_a_logo.png" alt="Royal Caribbean INTERNATIONAL"></a>
+                <a href="">Encontre seu cruzeiro</a></li>
+                <a href="">Ofertas</a>
+                <a href="">Nossos Navios</a>
+                <a href="">Destinos</a>
+                <a href="">Gerenciar</a>
+                <a href="">Meu Cruzeiro</a>
+                <a href="">Login</a>
+                <a href="javascript:void(0);" class="icon" >
+                        <i class="fa fa-bars"></i>
+                </a>
+                </ul>
+            </nav>
+            
+            <div class="banner">
+                <img class="mySlides" src="images/slide_1_brasil.jpg" style="width:100%">
+                <img class="mySlides" src="images/slide_2_cancun.jpg" style="width:100%">
+                <img class="mySlides" src="images/slide_3_caribe.jpg" style="width:100%">
+                <img class="mySlides" src="images/slide_4_aruba.jpg" style="width:100%">
+            </div>
+            
+
+
+        </header>
+
+        <section id="cruzeiro">
+            <div class="menuTabs">
+                <button class="tabButton">Reservas</button>
+                <button class="tabButton">Viagens</button>
+                <button class="tabButton">Passeios</button>
+              </div>
+
+
+            <div id="Reservas" class="tabs travel">
+                <h4>Reserva Agora</h4>
+            <div id="cruzeiro-linha-divisora"></div>
+
+            <div class="form-reserva">
+                <form>
+                    <div class="form-group">
+                        <label for="destino">Destino</label>
+                        <select name="cityfrom" id="cityfrom" form="cityform">
+                            <option value="salvador">Salvador</option>
+                            <option value="saopaulo">São Paulo</option>
+                            <option value="rio">Rio de Janeiro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="porto">Porto de Embarque</label>
+                        <select name="cityfrom" id="cityfrom" form="cityform">
+                            <option value="salvador">Salvador</option>
+                            <option value="saopaulo">São Paulo</option>
+                            <option value="rio">Rio de Janeiro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="data">Data de Embarque</label>
+                        <input type="date" id="traveldate" name="traveldate">
+                    </div>
+                    <div class="form-group">
+                        <label for="passageiros">Passageiros</label>
+                        <select name="cityfrom" id="cityfrom" form="cityform">
+                            <option value="2adultos">2 Adultos</option>
+                            <option value="1adulto">1 Adulto</option>
+                            <option value="1adulto1crianca">1 Adulto e 1 Criança</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group"></div>
+                    <button type="submit" id="btn-buscar">BUSCAR</button>
+                </form>
+            </div>
+            </div>
+              
+            <div id="Viagens" class="tabs travel" style="display:none">
+                <h4>Viage Agora</h4>
+            <div id="cruzeiro-linha-divisora"></div>
+
+            <div class="form-reserva">
+                <form>
+                    <div class="form-group">
+                        <label for="destino">Destino</label>
+                        <select name="cityfrom" id="cityfrom" form="cityform">
+                            <option value="salvador">Salvador</option>
+                            <option value="saopaulo">São Paulo</option>
+                            <option value="rio">Rio de Janeiro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="porto">Porto de Embarque</label>
+                        <select name="cityfrom" id="cityfrom" form="cityform">
+                            <option value="salvador">Salvador</option>
+                            <option value="saopaulo">São Paulo</option>
+                            <option value="rio">Rio de Janeiro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="data">Data de Embarque</label>
+                        <input type="date" id="traveldate" name="traveldate">
+                    </div>
+                    <div class="form-group">
+                        <label for="passageiros">Passageiros</label>
+                        <select name="cityfrom" id="cityfrom" form="cityform">
+                            <option value="2adultos">2 Adultos</option>
+                            <option value="1adulto">1 Adulto</option>
+                            <option value="1adulto1crianca">1 Adulto e 1 Criança</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group"></div>
+                    <button type="submit" id="btn-buscar">BUSCAR</button>
+                </form>
+            </div>
+            </div>
+              
+            <div id="Passeios" class="tabs travel" style="display:none">
+                <h4>Passei Agora</h4>
+                <div id="cruzeiro-linha-divisora"></div>
+    
+                <div class="form-reserva">
+                    <form>
+                        <div class="form-group">
+                            <label for="destino">Destino</label>
+                            <select name="cityfrom" id="cityfrom" form="cityform">
+                                <option value="salvador">Salvador</option>
+                                <option value="saopaulo">São Paulo</option>
+                                <option value="rio">Rio de Janeiro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="porto">Porto de Embarque</label>
+                            <select name="cityfrom" id="cityfrom" form="cityform">
+                                <option value="salvador">Salvador</option>
+                                <option value="saopaulo">São Paulo</option>
+                                <option value="rio">Rio de Janeiro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="data">Data de Embarque</label>
+                            <input type="date" id="traveldate" name="traveldate">
+                        </div>
+                        <div class="form-group">
+                            <label for="passageiros">Passageiros</label>
+                            <select name="cityfrom" id="cityfrom" form="cityform">
+                                <option value="2adultos">2 Adultos</option>
+                                <option value="1adulto">1 Adulto</option>
+                                <option value="1adulto1crianca">1 Adulto e 1 Criança</option>
+                            </select>
+                        </div>
+    
+                        <div class="form-group"></div>
+                        <button type="submit" id="btn-buscar">BUSCAR</button>
+                    </form>
+                </div>    
+            </div>    
+
+
+        </section>
+
+        <section id="pacotes">
+            <h2>CORRA E APROVEITE</h2>
+            <div class="cartaos-container">
+                <div class="cartao">
+                    <img src="./images/arrivals-plaza-perfect-day-at-cococay-aerial-view.png" alt="Bahamas">
+                    <h3>4 Night Bahamas & Perfect Day Cruise</h3>
+                    <p>A partir de*</p>
+                    <p class="cartao-price">R$ 2.500,00/pessoa</p>
+                    <p class="cartao-localization">Partindo de Orlando, Porto Canaveral, a bordo Utopia of the Seas</p>
+                </div>
+                <div class="cartao">
+                    <img src="./images/arrivals-plaza-perfect-day-at-cococay-aerial-view(1).png" alt="Perfect Day">
+                    <h3>Perfect Day Getaway Cruise</h3>
+                    <p>A partir de*</p>
+                    <p class="cartao-price">R$ 4.500,00/pessoa</p>
+                    <p class="cartao-localization">Fort Lauderdale, Flórida, a bordo Liberty of the Seas</p>
+                </div>
+                <div class="cartao">
+                    <img src="./images/arrivals-plaza-perfect-day-at-cococay-aerial-view(2).png" alt="Caribbean">
+                    <h3>Short Caribbean Cruise</h3>
+                    <p>A partir de*</p>
+                    <p class="cartao-price"> R$ 5.500,00/pessoa</p>
+                    <p class="cartao-localization">Partindo de Miami, Flórida, a bordo Independence of the Seas</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="nossos-navios">
+            <h2>NOSSOS NAVIOS</h2>
+            <div class="ships-container">
+                <div class="ship">
+                    <img src="./images/icon-of-the-seas-aerial-aft-night.png" alt="Icon of the Seas">
+                    <h3>ICON OF THE SEAS</h3>
+                </div>
+                <div class="ship">
+                    <img src="./images/utopia-of-the-seas-sunseet-sailing-portrait-new.png" alt="Utopia of the Seas">
+                    <h3>UTOPIA OF THE SEAS</h3>
+                </div>
+                <div class="ship">
+                    <img src="./images/star-of-the-seas-aft-sailing-night-time-up.png" alt="Star of the Seas">
+                    <h3>STAR OF THE SEAS</h3>
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            © 2024 ROYAL CARIBBEAN INTERNATIONAL
+        </footer>
+
+        <script src="javascript/script.js"></script>
+    </body>
+    </main>
+</body>
+</html>

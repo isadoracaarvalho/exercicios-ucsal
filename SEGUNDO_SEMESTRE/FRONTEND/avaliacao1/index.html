@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoyalCaribbean Isadora e Kevin</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section class="topo">
+            <p>BRASIL 0800-8913998</p>
+        </section>
+        
+        <header>
+            <nav>
+                <ul>
+                    <img src="imagens/h1_a_logo.png" alt="Royal Caribbean International">
+                    <li><a href="#">ENCONTRE SEU CRUZEIRO</a></li>
+                    <li><a href="#">OFERTAS</a></li>
+                    <li><a href="#">NOSSOS NAVIOS</a></li>
+                    <li><a href="#">DESTINOS</a></li>
+                    <li><a href="#">GERENCIAR</a></li>
+                    <li><a href="#">MEU CRUZEIRO</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </nav>
+            <div class="title">
+                <h1>CORRA E APROVEITE</h1>
+                <h2>ATÉ R$ 3.045 DE DESCONTO</h2>
+                <input type="submit" id="enviar" value="COMPRE AGORA">
+            </div>
+        </header>
+
+        <div class="box-principal">
+            <section class="cruzeiro">
+                <h2>Reserva Agora</h2>
+                <form>
+                    <div class="escolha">
+                        <label for="escolhadestino">Destino</label>
+                    <select name="escolhadestino" id="escolhadestino">
+                        <option value="selecionar">Selecionar...</option>
+                        <option value="bahamas">Bahamas</option>    
+                        <option value="caribe">Caribe</option>
+                        <option value="florida">Flórida</option>
+                    </select>
+                    </div>
+
+                    <div class="escolha">
+                        <label for="escolhaembarque" class="label">Porto de Embarque</label>
+                    <select name="escolhaembarque" id="escolhaembarque">
+                        <option value="selecionar">Selecionar...</option>
+                        <option value="canaveral">Porto Canaveral, Orlando, Flórida</option>
+                        <option value="lauderale">Fort Lauderale, Flórida</option>
+                        <option value="miami">Miami, FloridaLabadee, Haiti</option>
+                    </select>
+                    </div>
+
+                    <div class="escolha">
+                        <label for="dataviagem">Data de Embarque</label>
+                        <input type="date" id="dataviagem" name="dataviagem">
+                    </div>
+    
+                    <div class="escolha">
+                        <label for="passageiros">Passageiros</label>
+                        <select name="passageiros" id="passageiros">
+                        <option value="um">1 adulto</option>
+                        <option value="dois">2 adultos</option>
+                        <option value="tres">3 adultos</option>
+                        <option value="quatro">4 adultos</option>
+                        </select>
+                    </div>
+    
+                    <input type="submit" id="buscar" value="BUSCAR">
+                </form>
+            </section>
+    
+            <section class="pacotes">
+                <h2>CORRA E APROVEITE</h2>
+                <div class="flexpacotes">
+                    <div class="option-pacote">
+                        <img src="imagens/arrivals-plaza-perfect-day-at-cococay-aerial-view.png" alt="4 Night Bahamas & Perfect Day Cruise">
+                        <h3>4 Night Bahamas & Perfect Day Cruise</h3>
+                        <p>a partir de*</p>
+                        <h4>R$ 2.500,00/pessoa</h4>
+                        <p>Partindo de Orlando (Porto Canaveral), Flórida 
+                        A bordo Utopia of the Seas</p>
+                    </div>
+    
+                    <div class="option-pacote">
+                        <img src="imagens/perfect-day-getaway-cruise.png" alt="Perfect Day Getaway Cruise">
+                        <h3>Perfect Day Getaway Cruise</h3>
+                        <p>a partir de*</p>
+                        <h4>R$ 4.500,00/pessoa</h4>
+                        <p>Partindo de Fort Lauderdale, Flórida 
+                        A bordo Liberty of the Seas</p>
+                    </div>
+    
+                    <div class="option-pacote">
+                        <img src="imagens/short-caribbean-cruise.png" alt="Short Caribbean Cruise">
+                        <h3>Short Caribbean Cruise</h3>
+                        <p>a partir de*</p>
+                        <h4>R$ 5.500,00/pessoa</h4>
+                        <p>Partindo de Miami, FlóridaLabadee, Haiti
+                        A bordo Independence of the Seas</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="nossosnavios">
+                <h2>NOSSOS NAVIOS</h2>
+                <div class="flexnavios">
+                    <div class="navio">
+                        <img src="imagens/icon-of-the-seas-aerial-aft-night.png" alt="Icons of the seas">
+                        <h3>Icons of the seas</h3>
+                    </div>
+    
+                    <div class="navio">
+                        <img src="imagens/utopia-of-the-seas-sunseet-sailing-portrait-new.png" alt="Utopia of the seas">
+                        <h3>Utopia of the seas</h3>
+                    </div>
+    
+                    <div class="navio">
+                        <img src="imagens/star-of-the-seas-aft-sailing-night-time-up.png" alt="Star of the seas">
+                        <h3>Star of the seas</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>© 2024 Royal Caribbean International</p>
+        </footer>
+    </main>
+</body>
+</html>
