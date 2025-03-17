@@ -1,4 +1,4 @@
-package exo;
+package ajustesLinkedList;
 
 public class Node<T> {
     T data;
